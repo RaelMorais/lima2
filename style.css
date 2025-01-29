@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.primario{
+    display: flex;
+    background-color: #111;
+    width: 100%;
+    height: 70px;
+}
+.secundario{
+    width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+   
+}
+.secundario a{
+    text-decoration: none;
+    color: #ffffff;
+    &:hover{
+        color: #0400ff;
+        transition: 0.2s;
+    }
+}
+img{
+    height: 40px;
+    border-radius: 100px;
+}
+.img{
+    height: 30px;
+    width: 100px;
+
+}
+.section-1{
+    display: flex;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    height: 600px;
+    text-align: center;
+}
+.main-primario{
+    display: flex;
+    justify-content: center;
+}
+.main-secundario{
+    display: flex;
+}
+
+
+
+
+
+
+.footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+}
+.footer .social-links {
+    margin: 20px 0;
+}
+.footer .social-links a {
+    color: #0400ff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer p {
+    color: #888;
+    font-size: 12px;
+}
+.footer p a {
+    color: #0400ff;
+    text-decoration: none;
+}
+.vermelho {
+    color: red;  
+  }
+  .top {
+	position: relative;
+	height: 10px;
+	background: linear-gradient(141deg, cyan 0%, rebeccapurple 40%, deeppink 90%);
+}
