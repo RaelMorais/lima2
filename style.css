@@ -175,16 +175,16 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    height: 800px;
+    height: 900px;
     margin-top: 100px;
     justify-content: center;
     flex-direction: column;
 }
 .imagem_ref h1{
     text-align: center;
+    z-index: 2;
 }
 .container_chorao{
-    margin-top: 30px;
     display: flex;
     flex-direction: row;
     height: 100%;
@@ -197,6 +197,16 @@
 .texto {
     position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    z-index: 2;
+}
+.texto-2{
+    position: absolute;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
